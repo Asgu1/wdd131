@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Arimo", sans-serif;
 }
 
 header, main, footer {
@@ -22,10 +22,16 @@ header, main, footer {
   font-weight: bold;
 }
 
+/*Header styling*/
+header {
+  text-align: center;
+}
+
 /*Navigation style*/
 nav {
   background-color: #310764;
   justify-content: space-evenly;
+  color: #FCFCFC;
 }
 
 nav ul{
@@ -110,4 +116,5 @@ h1 {
 .card h2, .card h3 {
     margin: 0 0 10px 0;
     text-align: center;
+    color: #630DBA;
 }
