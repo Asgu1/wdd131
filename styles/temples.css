@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+#hamburger {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f4f4f4;
+  margin-top: 2rem;
+}
