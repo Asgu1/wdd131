@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Country Page</title>
+  <link rel="stylesheet" href="./styles/place.css">
+  <link rel="stylesheet" href="./styles/place-large.css">
+  <script src="./scripts/place.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Your Country</h1>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+        <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+        <img src="images/hero-large.webp" alt="Hero image" width="800" height="1000">
+      </picture>
+    </section>
+
+    <section class="data">
+      <h2>Data</h2>
+      <ul>
+        <li>Population: 3.5 million</li>
+        <li>Capital: City Name</li>
+        <li>Currency: Example</li>
+        <li>Language: Example</li>
+      </ul>
+    </section>
+
+    <section class="weather">
+      <h2>Weather <span class="weather-icon"></span></h2>
+      <p>Temperature: <span id="temp">10</span> °C</p>
+      <p>Wind Speed: <span id="wind">8</span> km/h</p>
+      <p>Wind Chill: <span id="windchill"></span></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+</body>
+</html>
