@@ -48,3 +48,7 @@ footer {
   background: var(--primary);
   color: white;
 }
+
+.weather-svg {
+  width: 40px;
+}
