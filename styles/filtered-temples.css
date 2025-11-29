@@ -10,6 +10,17 @@ body {
   font-family: sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav:hover {
+    color: blue;
+}
+
 #temple-cards {
   display: grid;
   grid-template-columns: 1fr;
