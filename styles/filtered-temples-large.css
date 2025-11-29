@@ -1,0 +1,34 @@
+@media screen and (min-width: 700px) {
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  nav a {
+    padding: 0.5rem 1rem;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #temple-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  figure {
+    padding: 1.5rem;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+
+  figcaption h3 {
+    font-size: 1.3rem;
+  }
+}
