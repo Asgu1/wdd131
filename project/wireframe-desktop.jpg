@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="zMkgkTuwrxoWQlm2QWYk">
+    <mxGraphModel dx="1026" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nE-jwsYkjsljBO49FWEw-1" value="LOGO" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-2" value="MENU: TOOLS / HOME / ABOUT&amp;nbsp;" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-3" value="IMAGE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="690" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-5" value="TEXT: WHY USE AI ETC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-6" value="TOOL" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-7" value="TOOL" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-8" value="TOOL" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="480" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nE-jwsYkjsljBO49FWEw-9" value="CONTACT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="710" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
