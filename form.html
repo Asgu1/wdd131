@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aarón Gutiérrez">
+    <meta name="description" content="This is a product review form in a page">
+    <title>Product Review</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+
+<main>
+    <h1>Product Review Form</h1>
+
+    <form action="review.html" method="get">
+
+    <!-- PRODUCT NAME -->
+    <label for="product">Product Name</label>
+    <select id="product" name="product" required>
+        <option disabled selected>Select a Product …</option>
+    </select>
+
+    <!-- RATING -->
+    <p>Overall Rating</p>
+    <div class="rating">
+        <label>
+            <input type="radio" name="rating" value="1" required>
+            ☆
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="2" required>
+            ☆☆
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="3" required>
+            ☆☆☆
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="4" required>
+            ☆☆☆☆
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="5" required>
+            ☆☆☆☆☆
+        </label>
+    </div>
+
+    <!-- DATE -->
+    <label for="date">Date of Installation</label>
+    <input type="date" id="date" name="date" required>
+
+    <!-- FEATURES -->
+    <p>Useful Features</p>
+
+    <label><input type="checkbox" name="features" value="Easy Setup"> Easy Setup</label>
+    <label><input type="checkbox" name="features" value="Affordable"> Affordable</label>
+    <label><input type="checkbox" name="features" value="Durable"> Durable</label>
+
+    <!-- REVIEW -->
+    <label for="review">Written Review (optional)</label>
+    <textarea id="review" name="review"></textarea>
+
+    <!-- NAME -->
+    <label for="username">Your Name (optional)</label>
+    <input type="text" id="username" name="username">
+
+    <!-- SUBMIT -->
+    <input type="submit" value="Submit Review">
+
+  </form>
+
+</main>
+
+<footer>
+    <p>© Aarón Gutiérrez - Guayas, Ecuador</p>
+    <p>&copy; <span id="year"></span> | Product Review</p>
+</footer>
+
+</body>
+</html>
